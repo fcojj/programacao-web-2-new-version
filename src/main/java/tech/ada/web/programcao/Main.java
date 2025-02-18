@@ -1,4 +1,4 @@
-package tech.ada;
+package tech.ada.web.programcao;
 
 public class Main {
     public static void main(String[] args) {

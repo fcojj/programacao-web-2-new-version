@@ -1,11 +1,9 @@
-package tech.ada;
+package tech.ada.web.programcao;
 
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-
-import static java.lang.StringTemplate.STR;
 
 
 public class ViaCepCliente {
