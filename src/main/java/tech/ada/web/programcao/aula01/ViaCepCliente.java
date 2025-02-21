@@ -1,13 +1,13 @@
-package tech.ada.web.programcao;
+package tech.ada.web.programcao.aula01;
 
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-
 public class ViaCepCliente {
     public static void main(String[] args) {
+
         String cep = "60843025";
         String apiUrl = STR."https://viacep.com.br/ws/\{cep}/json/";
 
@@ -15,9 +15,9 @@ public class ViaCepCliente {
 
             //cria o request
             HttpRequest request = HttpRequest.newBuilder(URI.create(apiUrl))
-                                              .header("Accept", "application/json")
-                                              .GET()
-                                              .build();
+                    .header("Accept", "application/json")
+                    .GET()
+                    .build();
             //envia a requisição
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
 
@@ -36,4 +36,3 @@ public class ViaCepCliente {
         }
     }
 }
-
