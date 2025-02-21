@@ -12,7 +12,7 @@ public class Post {
     private int userId;
     private int id;
 
-    // Mapeia o campo title do JSON para o atributo titulo da classe(desserialização)
+    // Mapeia o campo title do JSON para o atributo titulo da classe(des    serialização)
     @JsonProperty("title")
     private String titulo;
     private String body;
