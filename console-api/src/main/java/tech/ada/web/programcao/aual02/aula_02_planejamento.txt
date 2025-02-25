@@ -1,0 +1,114 @@
+#AULA 02 - Como gerenciar dependências e simplificar a manipulação de dados em Java?
+
+Estudo de Caso:
+- Criar uma aplicação Java que consome dados de uma API pública (ex.: JSONPlaceholder), 
+usando Maven para gerenciar as dependências e Jackson para converter o JSON em objetos Java.
+
+https://jsonplaceholder.typicode.com/
+
+
+Expositiva:
+- Apresentar o Maven: estrutura do projeto, POM.xml, configuração de dependências e plugins. -> ver pom do projeto aula 01
+
+#Podemos definir diferentes escopos para as dependências:
+
+compile (padrão) → Disponível em tempo de compilação e execução.
+provided → Disponível apenas em tempo de compilação.
+runtime → Necessário apenas em tempo de execução.
+test → Usado apenas para testes.
+
+- Explicar o uso da biblioteca Jackson para conversão JSON-Java.
+
+1. Dependência no Maven
+Jackson -> serializar e deserealizar Objetos
+<dependency>
+		<groupId>com.fasterxml.jackson.core</groupId>
+		<artifactId>jackson-databind</artifactId>
+		<version>2.16.1</version>
+</dependency>
+<dependency>
+	<groupId>com.fasterxml.jackson.datatype</groupId>
+	<artifactId>jackson-datatype-jsr310</artifactId>
+	<version>2.16.1</version>
+</dependency>
+
+2. Criando uma Classe Modelo -> Post
+
+3. Convertendo Objeto Java para JSON (Serialização) -> Mostrar metodo criarPost(Post post) request body
+ObjectMapper objectMapper = new ObjectMapper();
+//converte o objeto post para JSON -> Serialização
+var postAsJson = objectMapper.writeValueAsString(post);
+
+4. Convertendo JSON para Objeto Java (Desserialização) -> Mostrar metodo criarPost(Post post) retorno
+#Obejeto
+objectMapper.readValue(response.body(), Post.class);
+#Lista de objetos
+List<Pessoa> listaPessoas = objectMapper.readValue(jsonArray, new TypeReference<List<Pessoa>>() {});
+
+#trabalhar com data
+ObjectMapper objectMapper = new ObjectMapper();
+objectMapper.registerModule(new JavaTimeModule());
+objectMapper.disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS);
+
+Agora, um campo LocalDate será serializado como "2024-02-21" em vez de um timestamp numérico.
+
+- Introduzir a biblioteca Lombok para simplificação do código
+#Instalar lombok intelijj plugins
+
+#Instalar dependencia no pom
+<dependency>
+	<groupId>org.projectlombok</groupId>
+	<artifactId>lombok</artifactId>
+	<version>1.18.36</version>
+	<scope>provided</scope>
+</dependency> 
+
+
+✅ @Data → Gera getters, setters, toString(), equals(), hashCode().
+✅ @Builder → Cria objetos com um builder. ->  Pessoa.builder().nome("Bruno").idade(33).build(); 
+✅ @AllArgsConstructor → Gera um construtor com todos os campos.
+✅ @NoArgsConstructor → Gera um construtor vazio.
+
+
+
+- Quais são as principais diferenças entre o Maven e outros gerenciadores, como Gradle?
+
+#Resumo das Diferenças
+Critério							Maven							Gradle
+Sintaxe	XML 						(pom.xml)						DSL (build.gradle)
+Facilidade de Configuração			Mais rígido e padronizado		Mais flexível e enxuto
+Desempenho							Mais lento (sequencial)			Mais rápido (paralelo e incremental)
+Gerenciamento de Dependências		Estrito e previsível			Mais flexível
+Suporte a Multiprojetos				Possível, mas manual			Suporte nativo e mais fácil
+Personalização						Limitada, baseada em plugins	Pode usar scripts Groovy/Kotlin
+
+
+#Quando Usar Cada um?
+✅ Use Maven se:
+Prefere simplicidade e padronização.
+O projeto é pequeno ou médio e a performance do build não é um problema.
+A equipe já tem experiência com Maven e não quer mudar para DSL.
+
+✅ Use Gradle se:
+Precisa de builds mais rápidos e paralelos.
+O projeto tem múltiplos módulos e requer automação complexa.
+Quer usar scripts Groovy/Kotlin para personalizar o build.
+
+- Como funciona o Jackson internamente ao mapear JSON para Java?
+
+Quando o Jackson desserializa JSON para um objeto Java, ele segue estas etapas:
+
+1-Encontra a Classe Java Correspondente
+Se tivermos Pessoa.class, ele usa a API de reflexão para inspecionar seus atributos e métodos.
+
+2️-Procura Atributos, Getters e Setters
+O Jackson verifica os atributos da classe (mesmo que sejam private).
+Se os atributos forem private, ele busca por métodos getters/setters para acessá-los.
+
+3-Busca um Construtor para Criar o Objeto
+Se houver um construtor sem argumentos (public Pessoa()), ele será usado.
+Se a classe não tiver um construtor padrão, o Jackson tenta usar um construtor parametrizado com @JsonCreator.
+
+Desafio:
+- Configurar um projeto Maven que consome dados de uma API pública, converte o JSON em objetos Java usando Jackson e usa Lombok para reduzir o boilerplate do modelo de dados.
+- Testar com diferentes endpoints da API para validar a conversão.

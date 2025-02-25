@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3b8f81a5-cd08-4eac-8457-9e4bb2446d49" name="Changes" comment="aula02">
+      <change afterPath="$PROJECT_DIR$/web2.spring.mvc/src/main/java/tech/ada/web2/spring/mvc/controller/ProdutoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web2.spring.mvc/src/main/java/tech/ada/web2/spring/mvc/model/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web2.spring.mvc/src/main/resources/static/css/estilo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web2.spring.mvc/src/main/resources/templates/produtos/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web2.spring.mvc/src/main/resources/templates/produtos/lista.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/ada/web/programcao/aual02/Exercicio.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/ada/web/programcao/aual02/aula_02_planejamento.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/ada/web/programcao/aual02/v1/Post.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/ada/web/programcao/aual02/v1/PostController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/ada/web/programcao/aual02/v1/PostService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/ada/web/programcao/aual02/v2/Post.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/ada/web/programcao/aual02/v2/PostController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/ada/web/programcao/aual02/v2/PostLombok.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/ada/web/programcao/aual02/v2/PostService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/ada/web/programcao/aual02/workflow_api.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/ada/web/programcao/aula01/CepController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/ada/web/programcao/aula01/CepService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/ada/web/programcao/aula01/ViaCepCliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/ada/web/programcao/aula01/aula01.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/ada/web/programcao/aula01/aula_01_planejamento.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;62000611_gls&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/fcojj/programacao-web-2-new-version.git&quot;,
+    &quot;accountId&quot;: &quot;38df22d7-21b4-4ca5-babe-6257bf13a912&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2tEMdH8ga1ZGXMAt4ibg0TBDiHK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CepController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.PostController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ViaCepCliente.executor&quot;: &quot;Run&quot;,
+    &quot;Application.tech.ada.web.programcao.ViaCepCliente.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.tech.ada.web.programcao.aual02.v2.PostController.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.programacao-web-2-new [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.programacao-web-2-new [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.programacao-web-2-new [org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.programacao-web-2-new [org.apache.maven.plugins:maven-install-plugin:3.1.2:install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.programacao-web-2-new [org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.1.2184:sonar].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.programacao-web-2-new [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/62000611/ada-projetos-professor/programacao-web-2-new/web2.spring.mvc&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\62000611\ada-projetos-professor\programacao-web-2-new\src\main\java\tech\ada\web\programcao\aula01" />
+      <recent name="C:\Users\62000611\ada-projetos-professor\programacao-web-2-new\src\main\java\tech\ada\web\programcao\aual02" />
+      <recent name="C:\Users\62000611\ada-projetos-professor\programacao-web-2-new\src\main\java\tech\ada\web\programcao\aual02\v2" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tech.ada.web.programcao.aual02.v2" />
+      <recent name="tech.ada" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.tech.ada.web.programcao.aual02.v2.PostController">
+    <configuration name="CepController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tech.ada.web.programcao.aula01.CepController" />
+      <module name="programacao-web-2-new" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tech.ada.web.programcao.aula01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CepService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tech.ada.web.programcao.aula01.CepService" />
+      <module name="programacao-web-2-new" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tech.ada.web.programcao.aula01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tech.ada.web.programcao.aual02.v1.PostController" />
+      <module name="programacao-web-2-new" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tech.ada.web.programcao.aual02.v1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ViaCepCliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tech.ada.ViaCepCliente" />
+      <module name="programacao-web-2-new" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tech.ada.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tech.ada.web.programcao.aual02.v2.PostController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tech.ada.web.programcao.aual02.v2.PostController" />
+      <module name="programacao-web-2-new" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tech.ada.web.programcao.aual02.v2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.tech.ada.web.programcao.aual02.v2.PostController" />
+        <item itemvalue="Application.PostController" />
+        <item itemvalue="Application.CepController" />
+        <item itemvalue="Application.CepService" />
+        <item itemvalue="Application.ViaCepCliente" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.153" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b8f81a5-cd08-4eac-8457-9e4bb2446d49" name="Changes" comment="" />
+      <created>1739912867383</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739912867383</updated>
+      <workItem from="1739912868399" duration="1377000" />
+      <workItem from="1739985347797" duration="680000" />
+      <workItem from="1739999182091" duration="7000" />
+      <workItem from="1740133943175" duration="9978000" />
+      <workItem from="1740153487276" duration="8908000" />
+      <workItem from="1740231512572" duration="15000" />
+      <workItem from="1740231645181" duration="4000" />
+      <workItem from="1740248907820" duration="11000" />
+      <workItem from="1740321913458" duration="275000" />
+      <workItem from="1740421679650" duration="18000" />
+      <workItem from="1740421727312" duration="22000" />
+      <workItem from="1740506565056" duration="12000" />
+    </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <option name="closed" value="true" />
+      <created>1739913345523</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739913345523</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init commit">
+      <option name="closed" value="true" />
+      <created>1739913533464</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739913533464</updated>
+    </task>
+    <task id="LOCAL-00003" summary="aula02">
+      <option name="closed" value="true" />
+      <created>1740154746527</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740154746527</updated>
+    </task>
+    <task id="LOCAL-00004" summary="aula02">
+      <option name="closed" value="true" />
+      <created>1740173053254</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740173053254</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <MESSAGE value="aula02" />
+    <option name="LAST_COMMIT_MESSAGE" value="aula02" />
+  </component>
+</project>
