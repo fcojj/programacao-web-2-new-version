@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="/css/estilo.css">
+    <title>Novo Produto</title>
+</head>
+<body>
+<h1>Editar Produto</h1>
+<form th:action="@{'/mvc/produtos/editar/'+${index}}" th:object="${produto}" method="post">
+    <label>Nome: <input type="text" th:field="*{nome}" /></label><br/>
+    <label>Preço: <input type="text" th:field="*{preco}" /></label><br/>
+    <button type="submit">Editar</button>
+</form>
+<br/>
+<a href="/mvc/produtos">Voltar</a>
+</body>
+</html>
