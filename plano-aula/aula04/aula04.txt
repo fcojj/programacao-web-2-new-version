@@ -1,0 +1,19 @@
+Aula 03: O que é a especificação JEE e como ela se relaciona com frameworks modernos como o Spring e o Quarkus?
+Estudo de Caso:
+- Criar uma API REST simples usando JAX-RS (JEE) para expor endpoints básicos (GET e POST).
+- Comparar a implementação com uma API equivalente criada com Spring Boot.
+
+Expositiva:
+- Apresentar a especificação JEE e o papel do JAX-RS no desenvolvimento de APIs REST.
+- Demonstrar as principais anotações e recursos do JAX-RS (ex.: @Path, @GET, @POST, @Produces).
+- Explicar as diferenças entre a especificação JEE e a abordagem opinativa do Spring Boot.
+- Introduzir o Quarkus como uma alternativa moderna para criar APIs baseadas em JEE, com foco em eficiência e aplicações nativas em nuvem.
+
+Pesquisa individual:
+- Como o JAX-RS se diferencia do Spring Web MVC na criação de APIs REST?
+- Quais são os principais recursos do Quarkus que otimizam o desenvolvimento de APIs?
+
+Desafio:
+- Criar uma API REST usando JAX-RS que permita listar e adicionar registros fictícios.
+- Refatorar a API para o Spring Boot e identificar as diferenças na abordagem.
+- Explorar como a mesma API pode ser implementada usando Quarkus.

@@ -1,0 +1,26 @@
+Aula 03: Como criar aplicações web robustas usando o Spring Boot e o padrão MVC?
+
+
+Estudo de Caso:
+- Criar uma aplicação Spring Boot simples que exibe uma lista de produtos via um endpoint REST e segue o padrão MVC.
+
+Expositiva:
+- Explicar o Spring Framework e a proposta do Spring Boot.
+https://spring.io/
+
+- Demonstrar a configuração inicial do projeto usando Spring Initializr.
+
+
+- Apresentar o padrão MVC no contexto do Spring (Controlador, Serviço e Modelo).
+->https://terasolunaorg.github.io/guideline/1.0.1.RELEASE/en/Overview/SpringMVCOverview.html
+
+
+- Explicar a anotação @RestController e os métodos HTTP associados.
+
+Pesquisa individual:
+- Como o Spring Boot facilita a configuração e o gerenciamento de dependências?
+- Qual a diferença entre @Controller e @RestController no Spring?
+
+Desafio:
+- Criar um endpoint REST usando Spring Boot que retorna uma lista de produtos fictícios em JSON.
+- Organizar o projeto seguindo o padrão MVC, separando Controlador, Serviço e Modelo.

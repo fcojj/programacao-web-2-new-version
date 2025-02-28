@@ -1,0 +1,32 @@
+Aula05: Como gerenciar o acesso a dados em uma aplicação web utilizando Spring Data JPA e Hibernate?
+
+https://miro.com/app/board/uXjVNkkMMAM=/
+https://medium.com/@burakkocakeu/jpa-hibernate-and-spring-data-jpa-efa71feb82ac
+
+#status code discussao
+https://chatgpt.com/c/67bf9d16-de58-8001-99d7-76ef5a6116ce
+
+#lombok issue-> intellij nao reconhece lombok annotations
+
+https://stackoverflow.com/questions/17729384/lombok-added-but-getters-and-setters-not-recognized-in-intellij-idea
+
+Estudo de Caso:
+- Criar uma aplicação Spring Boot conectada a um banco de dados relacional para gerenciar um cadastro de clientes, utilizando Spring Data JPA e Hibernate.
+- Implementar operações básicas (CRUD) e consultas avançadas, explorando paginação e ordenação.
+
+Expositiva:
+- Apresentar o Hibernate como uma implementação da especificação JPA.
+- Demonstrar como configurar datasources no `application.properties` ou `application.yml`.
+- Explicar o mapeamento de entidades e relacionamentos (ex.: @Entity, @OneToMany, @ManyToOne).
+- Mostrar como usar o JpaRepository para query methods, JPQL e queries nativas.
+- Introduzir as funcionalidades de paginação e ordenação com Spring Data JPA.
+
+Pesquisa individual:
+- Quais são os benefícios do uso do Hibernate sobre consultas SQL diretas?
+- Como a anotação @Query pode ser usada para personalizar consultas?
+
+Desafio:
+- Configurar um datasource e criar uma entidade Cliente mapeada para uma tabela no banco.
+- Implementar um JpaRepository com query methods para buscar clientes por diferentes critérios.
+- Criar uma consulta JPQL que retorne clientes em ordem decrescente de data de cadastro.
+- Implementar paginação para listar clientes em páginas de 5 registros.

@@ -1,0 +1,4 @@
+Desafio:
+- Configurar um projeto Maven que consome dados de uma API pública, 
+converte o JSON em objetos Java usando Jackson e usa Lombok para reduzir o boilerplate do modelo de dados.
+- Testar com diferentes endpoints da API para validar a conversão.
